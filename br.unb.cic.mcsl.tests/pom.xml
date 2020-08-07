@@ -10,12 +10,25 @@
 	<packaging>eclipse-test-plugin</packaging>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.eclipse.xtend</groupId>
-				<artifactId>xtend-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
+	  <plugins>
+	    <plugin>
+              <groupId>br.unb.cic.mcsl</groupId>
+              <artifactId>gen-tests</artifactId>
+              <version>0.0.1</version>
+              <executions>
+		<execution>
+		  <phase>generate-sources</phase>
+		  <goals>
+		    <goal>gentest</goal>
+		  </goals>
+		</execution>
+              </executions>
+	    </plugin>  
+	    <plugin>
+	      <groupId>org.eclipse.xtend</groupId>
+	      <artifactId>xtend-maven-plugin</artifactId>
+	    </plugin>
+	  </plugins>
 	</build>
 
 </project>

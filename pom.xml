@@ -25,6 +25,7 @@
 		<module>br.unb.cic.mcsl.ide</module>
 		<module>br.unb.cic.mcsl.ui</module>
 		<module>br.unb.cic.mcsl.target</module>
+		<module>br.unb.cic.mcsl.gen-tests</module>
 		<module>br.unb.cic.mcsl.tests</module>
 		<module>br.unb.cic.mcsl.ui.tests</module>
 	</modules>
